@@ -171,7 +171,7 @@ int ReadCdS(){
         LCD.WriteLine("Blue");
     }else{
         LCD.Clear( FEHLCD::Black);
-        LCD.WriteLine("Something Fucked Up");
+        LCD.WriteLine("Something Messed Up");
         LCD.Write(cdsCell.Value());
     }
     return col;
